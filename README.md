@@ -1,6 +1,6 @@
 # TicketAlertBot
 An adaptable web scraping tool for tracking ticket prices and sending targeted alerts via Telegram. Built to bypass detection with user-agent rotation and proxy support.
-----
+
 This repository contains a Python script designed to scrape ticket prices from a specific webpage and send Telegram notifications when certain conditions are met. While not intended as a fully polished tool for end-users, it serves as an example or skeleton for developers who wish to customize it to their own needs.
 
 The idea originated when I wanted to purchase a ticket and noticed that the webpage offered notifications for new tickets but lacked filtering options for notifications based on my preferences. This inspired me to create my own solution while learning along the way.
@@ -46,7 +46,7 @@ To use this project, you will need the following:
   - Target URL: Replace the URL in the URL variable with the page you want to scrape.
   - XPath or Class Names: Update the XPath or class names in the scraper to match the structure of your target webpage.
   - Threshold: Set a PRICE_THRESHOLD value suitable for your needs.
-  - 
+
 ## Key Components
 
 ### Libraries and Tools
